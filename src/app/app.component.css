@@ -1,0 +1,61 @@
+
+#container {
+  margin: 0 2rem;
+}
+
+h1 {
+  text-align: center;
+  border: solid 2px black;
+}
+
+h1 > span {
+  color: crimson;
+}
+
+.search-form-container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+
+table {
+  width: 100%;
+}
+
+th{
+  font-size: large;
+}
+
+.global-data{
+  margin-left: 25px;
+  font-weight: 500;
+  font-size: medium;
+}
+
+#global-cases{
+  color: darkgoldenrod;
+}
+
+#global-deaths{
+  color: crimson;
+}
+
+#global-recovered{
+  color: green;
+}
+
+
+input:focus{
+  outline: none;
+}
+
+input {
+  width: 40%;
+  height: 40px;
+}
+
+#flag{
+  width: 35px;
+  height: auto;
+}
