@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { noop, timer } from 'rxjs';
-import { MatTableDataSource } from '@angular/material/table';
+import {Component, OnInit} from '@angular/core';
+import {HttpClient} from '@angular/common/http';
+import {noop, timer} from 'rxjs';
+import {MatTableDataSource} from '@angular/material/table';
 
 
 @Component({
@@ -18,7 +18,8 @@ export class AppComponent implements OnInit {
 
   dateAvailability = true;
 
-  displayedColumns: string[] = ['countryInfo', 'country', 'cases', 'todayCases', 'deaths', 'todayDeaths', 'recovered', 'critical'];
+  displayedColumns: string[] = ['countryInfo', 'country', 'cases', 'todayCases', 'deaths', 'todayDeaths', 'recovered', 'critical',
+    'updated'];
 
   dataSource;
 
